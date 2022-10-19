@@ -13,7 +13,53 @@ $darkBrown: hsl(25, 47%, 15%);
 $medBrown: hsl(28, 10%, 53%);
 $cream: hsl(27, 66%, 92%);
 $paleOrange: hsl(33, 100%, 98%);
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+.flex-1 {
+  flex: 1;
+}
+.p-4 {
+  padding: 1rem;
+}
+.px-5 {
+  padding: 1.3rem 1.25rem;
+}
+.mt-7 {
+  margin-top: 1.75rem;
+}
+.mt-20 {
+  margin-top: 5rem;
+}
+.my-5 {
+  margin: 1.25rem 0;
+}
 
+.font-bold {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: #e5e7eb;
+}
 .card-container {
   height: 100vh;
   background-color: $paleOrange;
@@ -86,6 +132,7 @@ $paleOrange: hsl(33, 100%, 98%);
         }
         .tue {
           height: 70px !important;
+          background: $softRed;
         }
         .wed {
           height: 120px !important;

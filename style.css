@@ -7,6 +7,76 @@
   font-family: "DM Sans", sans-serif;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.items-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-5 {
+  padding: 1.3rem 1.25rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.my-5 {
+  margin: 1.25rem 0;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: #e5e7eb;
+}
+
 .card-container {
   height: 100vh;
   background-color: #fffaf5;
@@ -113,6 +183,7 @@
 
 .card-container .card .body .bars .tue {
   height: 70px !important;
+  background: #ec775f;
 }
 
 .card-container .card .body .bars .wed {
