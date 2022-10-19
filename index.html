@@ -15,75 +15,73 @@
     <title>Frontend Mentor | Expenses chart component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!-- TailwindCSS Linked  -->    
+    <!-- TailwindCSS Linked  -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <section class="card-container flex justify-center items-center">
-        <div class="card">
-          <div class="header flex justify-between items-center p-4 px-5">
-            <div class="balance">
-              <h4>My balance</h4>
-              <h1 class="font-bold">$921.48</h1>
+    <main class="card-container flex justify-center items-center">
+      <div class="card">
+        <div class="header flex justify-between items-center p-4 px-5">
+          <div class="balance">
+            <h4>My balance</h4>
+            <h1 class="font-bold">$921.48</h1>
+          </div>
+          <div class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </div>
+        </div>
+        <div class="body mt-7">
+          <h1 class="heading">Spending - Last 7 days</h1>
+          <div class="bars flex justify-between items-end mt-20">
+            <div class="bar">
+              <span class="hover">$56.87</span>
+              <div class="mon"></div>
+              <span>mon</span>
             </div>
-            <div class="logo">
-              <img src="./images/logo.svg" alt="" />
+            <div class="bar">
+              <span class="hover"></span>
+              <div class="tue h-[70px]"></div>
+              <span>tue</span>
+            </div>
+            <div class="bar">
+              <span class="hover"></span>
+              <div class="wed"></div>
+              <span>wed</span>
+            </div>
+            <div class="bar">
+              <span class="hover"></span>
+              <div class="thu"></div>
+              <span>thu</span>
+            </div>
+            <div class="bar">
+              <span class="hover"></span>
+              <div class="fri"></div>
+              <span>fri</span>
+            </div>
+            <div class="bar">
+              <span class="hover"></span>
+              <div class="sat"></div>
+              <span>sat</span>
+            </div>
+            <div class="bar">
+              <span class="hover"></span>
+              <div class="sun"></div>
+              <span>sun</span>
             </div>
           </div>
-          <div class="body mt-7">
-            <h1 class="heading">Spending - Last 7 days</h1>
-            <div class="bars flex justify-between items-end mt-20">
-              <div class="bar">
-                <span class="hover">$56.87</span>
-                <div class="mon"></div>
-                <span>mon</span>
-              </div>
-              <div class="bar">
-                <span class="hover"></span>
-                <div class="tue h-[70px]"></div>
-                <span>tue</span>
-              </div>
-              <div class="bar">
-                <span class="hover"></span>
-                <div class="wed"></div>
-                <span>wed</span>
-              </div>
-              <div class="bar">
-                <span class="hover"></span>
-                <div class="thu"></div>
-                <span>thu</span>
-              </div>
-              <div class="bar">
-                <span class="hover"></span>
-                <div class="fri"></div>
-                <span>fri</span>
-              </div>
-              <div class="bar">
-                <span class="hover"></span>
-                <div class="sat"></div>
-                <span>sat</span>
-              </div>
-              <div class="bar">
-                <span class="hover"></span>
-                <div class="sun"></div>
-                <span>sun</span>
-              </div>
+          <hr class="divider my-5" />
+          <div class="footer flex justify-between items-center">
+            <div class="total">
+              <h4>Total this month</h4>
+              <h1>$478.33</h1>
             </div>
-            <hr class="divider my-5" />
-            <div class="footer flex justify-between items-center">
-              <div class="total">
-                <h4>Total this month</h4>
-                <h1>$478.33</h1>
-              </div>
-              <div class="perce">
-                <h2>+2.4%</h2>
-                <span>from last month</span>
-              </div>
+            <div class="perce">
+              <h2>+2.4%</h2>
+              <span>from last month</span>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </main>
   </body>
   <script src="./script.js"></script>
